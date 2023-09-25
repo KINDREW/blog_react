@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sanserif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  /* background: whitesmoke; */
+  height: 100px;
+}
+
+.navbar h1 {
+  color: rgb(215, 25, 25);
+}
+
+a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.blog-preview {
+  /* width: 70%; */
+  padding: 10px 20px;
+}
+
+.blog-preview:hover {
+  box-shadow: 2px 2px 2px rgb(129, 117, 117);
+  padding: 20px 30px;
+}
+
+.blog-preview h1 {
+  text-transform: uppercase;
+  color: rgb(215, 25, 25);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 500px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(175, 161, 161);
+  margin-top: 10px;
+}
+
+textarea {
+  width: 500px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(175, 161, 161);
+  margin-top: 10px;
+}
+
+select {
+  width: 500px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(175, 161, 161);
+  margin-top: 10px;
+}
+
+button {
+  /* height: 0px; */
+  padding: 10px 20px;
+  width: 100px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(175, 161, 161);
+  background: rgb(215, 25, 25);
+  margin-top: 10px;
+}
